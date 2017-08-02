@@ -1,6 +1,8 @@
 stage 'Init'
 node {
   sh 'echo ************************'
+  sh 'echo ************************'
+  sh 'echo ************************'
   sh 'echo $BRANCH_NAME'
 }
 if (env.BRANCH_NAME == 'master') {
