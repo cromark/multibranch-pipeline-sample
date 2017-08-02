@@ -1,6 +1,5 @@
 stage 'Init'
 node {
-  checkout scm
   sh 'echo $BRANCH_NAME'
 }
 if (env.BRANCH_NAME == 'master') {
